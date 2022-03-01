@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <include file="$(find box_bot_gazebo)/launch/main.launch"/>-->
+    <include file="$(find rviz_webapp)/launch/demo_box_bot.launch"/>
+    <include file="$(find rviz_webapp)/launch/web_server.launch"/>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: pr2_tc_movit
+Description: Description of pr2_tc_movit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

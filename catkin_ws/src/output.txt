@@ -1,0 +1,6 @@
+/pr2/controller_manager/list_controller_types
+/pr2/controller_manager/list_controllers
+/pr2/controller_manager/load_controller
+/pr2/controller_manager/reload_controller_libraries
+/pr2/controller_manager/switch_controller
+/pr2/controller_manager/unload_controller

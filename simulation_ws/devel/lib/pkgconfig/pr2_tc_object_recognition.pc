@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: pr2_tc_object_recognition
+Description: Description of pr2_tc_object_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

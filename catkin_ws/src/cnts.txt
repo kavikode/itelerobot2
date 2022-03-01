@@ -1,0 +1,195 @@
+controller: 
+  - 
+    name: "joint_state_controller"
+    state: "running"
+    type: "joint_state_controller/JointStateController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::JointStateInterface"
+        resources: []
+  - 
+    name: "right_arm_controller"
+    state: "running"
+    type: "position_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - right_elbow_flex_joint
+          - right_forearm_roll_joint
+          - right_shoulder_lift_joint
+          - right_shoulder_pan_joint
+          - right_upper_arm_roll_joint
+          - right_wrist_flex_joint
+          - right_wrist_roll_joint
+  - 
+    name: "left_arm_controller"
+    state: "running"
+    type: "position_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - left_elbow_flex_joint
+          - left_forearm_roll_joint
+          - left_shoulder_lift_joint
+          - left_shoulder_pan_joint
+          - left_upper_arm_roll_joint
+          - left_wrist_flex_joint
+          - left_wrist_roll_joint
+  - 
+    name: "torso_lift_joint_controller"
+    state: "running"
+    type: "position_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - torso_lift_joint
+  - 
+    name: "left_gripper_controller"
+    state: "running"
+    type: "effort_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - left_left_gripper_finger_joint
+          - left_right_gripper_finger_joint
+  - 
+    name: "right_gripper_controller"
+    state: "running"
+    type: "effort_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - right_left_gripper_finger_joint
+          - right_right_gripper_finger_joint
+  - 
+    name: "head_joint_controller"
+    state: "running"
+    type: "position_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - head_pan_joint
+          - head_tilt_joint
+  - 
+    name: "laser_tilt_mount_joint_controller"
+    state: "running"
+    type: "position_controllers/JointTrajectoryController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - laser_tilt_mount_joint
+  - 
+    name: "fl_caster_rotation_joint_controller"
+    state: "running"
+    type: "position_controllers/JointPositionController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - fl_caster_rotation_joint
+  - 
+    name: "fr_caster_rotation_joint_controller"
+    state: "running"
+    type: "position_controllers/JointPositionController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - fr_caster_rotation_joint
+  - 
+    name: "br_caster_rotation_joint_controller"
+    state: "running"
+    type: "position_controllers/JointPositionController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - br_caster_rotation_joint
+  - 
+    name: "bl_caster_rotation_joint_controller"
+    state: "running"
+    type: "position_controllers/JointPositionController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::PositionJointInterface"
+        resources: 
+          - bl_caster_rotation_joint
+  - 
+    name: "fr_caster_l_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - fr_caster_l_wheel_joint
+  - 
+    name: "fr_caster_r_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - fr_caster_r_wheel_joint
+  - 
+    name: "fl_caster_l_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - fl_caster_l_wheel_joint
+  - 
+    name: "fl_caster_r_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - fl_caster_r_wheel_joint
+  - 
+    name: "br_caster_l_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - br_caster_l_wheel_joint
+  - 
+    name: "br_caster_r_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - br_caster_r_wheel_joint
+  - 
+    name: "bl_caster_l_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - bl_caster_l_wheel_joint
+  - 
+    name: "bl_caster_r_wheel_joint_controller"
+    state: "running"
+    type: "effort_controllers/JointVelocityController"
+    claimed_resources: 
+      - 
+        hardware_interface: "hardware_interface::EffortJointInterface"
+        resources: 
+          - bl_caster_r_wheel_joint
