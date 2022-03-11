@@ -1,0 +1,8 @@
+prefix=/home/kavihost/catkin_ws/install
+
+Name: fetch_navigation
+Description: Description of fetch_navigation
+Version: 0.7.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

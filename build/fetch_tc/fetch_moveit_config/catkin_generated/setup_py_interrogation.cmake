@@ -1,0 +1,7 @@
+set(fetch_moveit_config_SETUP_PY_SETUP_MODULE "distutils.core")
+set(fetch_moveit_config_SETUP_PY_VERSION "0.3.0")
+set(fetch_moveit_config_SETUP_PY_SCRIPTS "")
+set(fetch_moveit_config_SETUP_PY_PACKAGES "fetch_moveit_config")
+set(fetch_moveit_config_SETUP_PY_PACKAGE_DIRS "src/fetch_moveit_config")
+set(fetch_moveit_config_SETUP_PY_MODULES "")
+set(fetch_moveit_config_SETUP_PY_MODULE_DIRS "")

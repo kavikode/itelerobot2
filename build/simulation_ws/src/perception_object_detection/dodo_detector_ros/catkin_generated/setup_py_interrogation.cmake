@@ -1,0 +1,7 @@
+set(dodo_detector_ros_SETUP_PY_SETUP_MODULE "distutils.core")
+set(dodo_detector_ros_SETUP_PY_VERSION "0.3.0")
+set(dodo_detector_ros_SETUP_PY_SCRIPTS "")
+set(dodo_detector_ros_SETUP_PY_PACKAGES "dodo_detector_ros;object_detection")
+set(dodo_detector_ros_SETUP_PY_PACKAGE_DIRS "src/dodo_detector_ros;src/object_detection")
+set(dodo_detector_ros_SETUP_PY_MODULES "")
+set(dodo_detector_ros_SETUP_PY_MODULE_DIRS "")

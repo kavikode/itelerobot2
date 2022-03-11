@@ -1,0 +1,1 @@
+/bin/c++ -fPIC   -shared -Wl,-soname,libLMS1xx.so -o /home/kavihost/catkin_ws/devel/lib/libLMS1xx.so CMakeFiles/LMS1xx.dir/src/LMS1xx.cpp.o  /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4 

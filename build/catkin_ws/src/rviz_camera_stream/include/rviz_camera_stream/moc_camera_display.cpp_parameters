@@ -1,0 +1,15 @@
+-I/home/kavihost/catkin_ws/src/catkin_ws/src/rviz_camera_stream/include
+-I/opt/ros/noetic/include
+-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include/eigen3
+-I/usr/include/OGRE/Overlay
+-I/usr/include/OGRE
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="rviz_camera_stream"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_KEYWORDS
+-o
+/home/kavihost/catkin_ws/build/catkin_ws/src/rviz_camera_stream/include/rviz_camera_stream/moc_camera_display.cpp
+/home/kavihost/catkin_ws/src/catkin_ws/src/rviz_camera_stream/include/rviz_camera_stream/camera_display.h

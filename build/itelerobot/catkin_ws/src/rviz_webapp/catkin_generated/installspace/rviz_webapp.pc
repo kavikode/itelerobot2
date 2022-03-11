@@ -1,0 +1,8 @@
+prefix=/home/kavihost/catkin_ws/install
+
+Name: rviz_webapp
+Description: Description of rviz_webapp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
